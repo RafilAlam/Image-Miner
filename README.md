@@ -1,6 +1,6 @@
 # Screenshot Route Finder (Sieve of Routes)
 
-This project is a **CLI tool** that explores random URL routes on a domain (such as `prnt.sc`) to determine if they lead to valid screenshots. It acts as a **sieve** to filter out routes with non-useful content, like placeholders or broken images, and identifies working URLs with screenshots.
+>This project is a **CLI tool** that explores random URL routes on a domain (such as `prnt.sc`) to determine if they lead to valid screenshots. It acts as a **sieve** to filter out routes with non-useful content, like placeholders or broken images, and identifies working URLs with screenshots.
 
 ---
 
