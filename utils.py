@@ -16,15 +16,14 @@ def Mine_Image(domain):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     } # Used to fool Cloudflare
 
-    URL = get_URL(domain)
+    URL = ""
     def try_URL():
+        URL = get_URL(domain)
         response = requests.get(URL, headers=headers, timeout=5)
-        if response.status_code == 200 and response.url == URL and "img" in response.text:
-            return True
+        if response.status_code == 200 and response.url == URL and int(len(response.content)) == 16328:
+            print(str(len(response.content)))
+            return URL
         else:
-            return False
+            return try_URL()
 
-    if try_URL():
-        print('Valid URL: ' + URL)
-    else:
-        print('Not Valid URL: ' + URL)
+    return try_URL()
