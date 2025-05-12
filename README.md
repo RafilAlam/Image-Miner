@@ -33,5 +33,5 @@ https://github.com/user-attachments/assets/b3cc964b-eb60-49cf-8241-5891a30b7005
 
 To use this tool, ensure you have the following installed:
 
-- Python 3.7+ or C++ compiler
+- Python 3.7+
 - `requests` library for Python
