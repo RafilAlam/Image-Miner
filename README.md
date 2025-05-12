@@ -3,6 +3,13 @@
 >This project is a **CLI tool** that explores random URL routes on a domain (such as `prnt.sc`, a website with random screenshots submitted by people) to determine if they lead to valid screenshots. It acts as a **sieve** to filter out routes with non-useful content, like placeholders or broken images, and identifies working URLs with screenshots like a bitcoin miner.
 
 ---
+## 🎥 Demo
+
+
+https://github.com/user-attachments/assets/b3cc964b-eb60-49cf-8241-5891a30b7005
+
+
+
 
 ## Features
 
