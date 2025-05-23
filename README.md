@@ -1,6 +1,6 @@
 # 🪨⛏️Image-Miner (Sieve of Routes)
 
->This project is a fun little **CLI tool** that benefits internet archeologists by exploring random URL routes on a domain (such as `prnt.sc`, a website with random screenshots submitted by people from as far back as 2010) to determine if they lead to valid screenshots. It acts as a **scraper** to filter out routes with non-useful content, like placeholders or broken images, and identifies working URLs with screenshots and logs them. This gets rid of the manual labour and hassle of individually trying out many routes and keeping track of which ones work and not — keeping the joy of discovery alive!
+>This project is a fun little **CLI tool** that benefits internet archaeologists by exploring random URL routes on a domain (such as `prnt.sc`, a website with random screenshots submitted by people from as far back as 2010) to determine if they lead to valid screenshots. It acts as a **scraper** to filter out routes with non-useful content, like placeholders or broken images, and identifies working URLs with screenshots and logs them. This gets rid of the manual labour and hassle of individually trying out many routes and keeping track of which ones work and not — keeping the joy of discovery alive!
 
 ---
 ## 🎥 Demo
